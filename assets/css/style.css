@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-nav{
+header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -26,7 +26,7 @@ h1 .seo {
 
 div {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 0px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -60,7 +60,7 @@ p {
 }
 
 
-section {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -93,7 +93,7 @@ aside {
 .benefits {
     margin-bottom: 39px;
     color: #ffffff;
-   
+    font-size: 16px;
 }
 
 
@@ -113,25 +113,7 @@ h3 {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
