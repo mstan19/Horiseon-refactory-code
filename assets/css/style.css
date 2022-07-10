@@ -24,21 +24,28 @@ h1 .seo {
     color: #d9dcd6;
 }
 
-.nav-float {
+header nav {
     padding-top: 15px;
-    margin-right: 0px;
+    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+header nav ul {
     list-style-type: none;
 }
 
-nav ul li{
-    list-style-type: none;
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
     text-decoration: none;
 }
+
 
 .hero {
     height: 800px;
@@ -122,6 +129,7 @@ footer {
 h4 {
     color:black
 }
+
 #copyright {
     color:black
 
