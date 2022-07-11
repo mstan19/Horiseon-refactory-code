@@ -9,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* headers and nav */
 
 h1 {
     display: inline-block;
@@ -60,7 +61,8 @@ h4 {
     color:black
 }
 
-main {
+/* section for info on  serach engine optimization, inonline reputatuion management, and social media marketing */
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -95,6 +97,7 @@ footer {
     font-size: 20px;
 }
 
+/* below are classes */
 .hero {
     height: 800px;
     width: 100%;
@@ -128,7 +131,7 @@ footer {
     max-width: 150px;
 }
 
-
+/* color white was applied under univeral element. This is needed to make the footer black and not white */
 #copyright {
     color:black
 
