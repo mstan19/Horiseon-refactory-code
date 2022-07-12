@@ -11,6 +11,7 @@ This is what the website needs to look like after refactoring the code.
 * Organize the style.css in cascading format.
 * Fix the footer's color and 
 * Added necessary breaks between benefits' sections
-* 
 
-## 
+## How to deploy the link application
+* Click on this link for deployed application
+* https://mstan19.github.io/Horiseon-refactory-code/
