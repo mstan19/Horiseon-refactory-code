@@ -1,10 +1,11 @@
-/* these will be apply throughout the webiste. if you want something to not have these elements please add classes tpo css*/
+/* these will be apply throughout the webiste. if you don't want to adopt these styles then and styling to your class*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     color: white
 }
+/* this background color will be applied throughout the website */
 
 body {
      background-color: #d9dcd6;
@@ -12,11 +13,7 @@ body {
 
 /* headers and nav */
 
-h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
+/* header and header nav have 2 diffenent styles i.e., font family and padding */
 header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,35 +28,46 @@ header nav {
     font-size: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav li {
+/* h tags serves diffent purpose therefore need different styling */
+/* h1 is the title of the website */
+h1 {
     display: inline-block;
-    margin-left: 25px;
+    font-size: 48px;
 }
 
-/* this 'a' tag is needed for nav. This removes the underline under the names*/
-a {
-    text-decoration: none;
-}
-
+/* h2 is h tag for the article */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* h3 is title for the benefits */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* color white was applied under univeral element. This is needed to make the footer black and not white */
-
+/* h4 is the title of the footer */
 h4 {
     color:black
 }
+
+nav ul {
+    list-style-type: none;
+}
+
+/* nav li is the individual nav option */
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* this 'a' tag is needed for nav. This removes the underline under the names. the a tag the nav bar options*/
+a {
+    text-decoration: none;
+}
+
 
 /* section for info on serach engine optimization, inonline reputatuion management, and social media marketing */
 section {
@@ -79,7 +87,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd; 
 }
-
+/* the article contains the body the webiste that doesn't include the aside (benefits) */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,6 +96,7 @@ article {
     background-color: #0072bb;
 }
 
+/* the footer has differnt styling from the rest of the body */
 footer {
     padding: 30px;
     clear: both;
@@ -97,6 +106,7 @@ footer {
 }
 
 /* below are classes */
+/* seo class and hero class has two styles but is the title of the website */
 .seo {
     color: #d9dcd6;
 }
@@ -111,23 +121,25 @@ footer {
 }
 
 /* float is for the images in the section*/
+/* this moves the image to left of the article section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* this moves the image to right of the article section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-
+/* tthis applies to everything in the aside */
 .benefits {
     margin-bottom: 39px;
     font-size: 16px;
 }
 
-
+/* the images for aside benefits are centered and in between the h3 tag and p tag */
 .benefits img  {
     display: block;
     margin: 10px auto;
@@ -137,5 +149,4 @@ footer {
 /* color white was applied under univeral element. This is needed to make the footer black and not white */
 #copyright {
     color:black
-
 }
